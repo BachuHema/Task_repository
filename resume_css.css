@@ -1,0 +1,110 @@
+.para{
+	background-color: yellow;
+	color: green;
+}
+#para{
+	background-color: brown;
+	color: pink;
+}
+.first,.second,.third,.forth{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 400px;
+	text-align:center;
+	padding: 5px;
+
+}
+img{
+	width:50%;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-radius: 50%;
+	box-shadow: 2px 3px 4px red;
+	padding: 10px;
+}
+.parent{
+	display: flex;
+	flex-direction: row-reverse;
+	/*justify-content: space-between;
+   	align-items: center;*/
+   	flex-wrap: wrap;
+}
+/* Queries for mobile view*/
+@media screen and (max-width: 425px){
+	.parent{
+		flex-direction: column;
+	}
+	.first,.second,.third,.forth{
+		background-color: #c45e45;
+		text-align: "center"
+	}
+	.main{
+		flex-direction: column;
+	}
+	.profile,.details,.pfirst,.psecond,.pthird,.dfirst,.dsecond,.dthird,.dforth{
+		background-color: #c45e45;
+	}
+}
+/*tablet media queries*/
+@media screen and (min-width: 426px) and (max-width: 768px){
+	.parent{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.first,.second,.third,.forth{
+		background-color: #ddd;
+		border-radius: 20px;
+		width: 300px;
+	}
+	.main{
+		flex-direction: row-reverse;
+		justify-content: space-between;
+	}
+	.profile,.details{
+		background-color: #ddd;
+		border-radius: 20px;
+		width: 300px;
+	}
+}
+/* Resume Properties*/
+.main{
+	border: 2px solid #000;
+	position: absolute;
+	width: 100%;
+	padding: 2px;
+}
+.profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 2px solid #000;
+	width: 28%;
+	padding: 5px;
+	float: left;
+
+}
+.pfirst,.psecond,.pthird{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 98%;
+	padding: 2px;
+
+}
+.details{
+	direction: flex;
+	flex-direction: row;
+	border: 2px solid #000;
+	width: 68%;
+	float: right;
+	padding: 5px;
+}
+.dfirst,.dsecond,.dthird,.dforth{
+	border: 2px solid #000;
+	margin: 2px;
+	width: 99%;
+	padding: 2px;
+
+
+}
