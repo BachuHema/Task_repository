@@ -1,0 +1,37 @@
+img{
+	width:30%;
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-radius: 50%;
+	box-shadow: 2px 3px 4px red;
+
+}
+.profile{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	border: 2px solid #000;
+	width: 48.5%;
+	padding: 5px;
+	float: left;
+	text-align: center;
+
+}
+.profile1{
+	direction: flex;
+	flex-direction: row;
+	border: 2px solid #000;
+	width: 48.5%;
+	float: right;
+	padding: 5px;
+	text-align: center;
+}
+
+.main{
+	border: 2px solid #000;
+	position: absolute;
+	width: 80%;
+	padding: 2px;
+}
