@@ -9,6 +9,7 @@ img{
 
 }
 .profile{
+	align-items: center;
 	display: flex;
 	flex-direction: column;
 	/*justify-content: space-between;*/
@@ -20,6 +21,7 @@ img{
 
 }
 .profile1{
+	align-items: center;
 	direction: flex;
 	flex-direction: row;
 	border: 2px solid #000;
